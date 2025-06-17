@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.hero {
+  background-image: url('https://images.pexels.com/photos/210012/pexels-photo-210012.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  max-width: 400px;
+}
+
+.about button {
+  padding: 10px 20px;
+  background-color: #e49b71;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.service {
+  max-width: 400px;
+  margin: 20px;
+  text-align: center;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+.products {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
